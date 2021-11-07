@@ -1,0 +1,39 @@
+.card {
+    width: 300px;
+    height: 350px;
+}
+
+.fs-sm {
+    font-size: x-small;
+}
+
+table, tr, td, th {
+    border: 3px lightgray solid;
+}
+
+body {
+    overflow: overlay;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+img {
+	object-fit:scale-down;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 2em;
+}
