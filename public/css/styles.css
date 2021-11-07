@@ -7,8 +7,8 @@
     font-size: x-small;
 }
 
-table, tr, td, th {
-    border: 3px lightgray solid;
+table {
+    border: 1px lightgray solid;
 }
 
 body {
